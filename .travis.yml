@@ -4,7 +4,7 @@ os: linux
 dist: "xenial"
 
 go:
-  - "1.13"
+  - 1.13.5
 before_script:
   - ulimit -n 4096
 script:
