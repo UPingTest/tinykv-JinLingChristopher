@@ -7,8 +7,7 @@ go:
   - "1.13"
 before_script:
   - ulimit -n 4096
-  - free -m
 script:
   - make test
 notifications:
-  webhooks: http://7bb33e27.ngrok.io/ag
+  webhooks: http://4d648698.ngrok.io/ag
